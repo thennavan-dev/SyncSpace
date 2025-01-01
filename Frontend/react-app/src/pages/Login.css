@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+    color: #000;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+.navname {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    padding-left: 60px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    z-index: 10;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.leftcontent img {
+    height: 900px;
+    width: 900px;
+    object-fit: cover;
+}
+
+.rightcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 70px;
+    max-width: 400px; /* Optional: Limits the width of the right content */
+}
+
+.rightcontent h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.rightcontent input {
+    margin-bottom: 20px; /* Reduced margin for better spacing */
+    background-color: white;
+    padding: 20px;
+    color: black;
+    width: 100%; /* Full width of the parent container */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.rightcontent input:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.forgot-password {
+    color: #007BFF;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.submit-btn {
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px; /* Rounded edges for the button */
+    cursor: pointer;
+    width: 100%; /* Makes the button span the full width */
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+}
